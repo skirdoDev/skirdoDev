@@ -1,0 +1,50 @@
+div#content{
+    background-color: black;
+}
+
+div#content div{
+    display: inline-block;
+    width: 49%;
+}
+
+div#content div.leftbox{
+    background-color: yellow;
+    vertical-align: top;
+}
+
+div#content div h1, p, iframe{
+    margin: 30px;
+}
+
+div#content div.rightbox{
+    background-color: green;
+    
+}
+
+nav.menu-nav ul li.btn{
+    display: inline;
+    list-style-type: none;
+}
+
+nav.menu-nav ul li.btn a{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    
+}
+
+nav.menu-nav ul li.btn:hover a{
+    color: rgb(224, 224, 224);
+    background-color: #444444;
+    transition: 250ms all;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+}
+
+footer{
+    color: #fff;
+    background-color: black;
+}
